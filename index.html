@@ -8,6 +8,36 @@
 
     <!-- Bootstrap -->
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/plugins/imgHoverEffect.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <style type="text/css">
+    /* Sticky footer styles
+    -------------------------------------------------- */
+    html {
+      position: relative;
+      min-height: 100%;
+    }
+
+    body {
+      /* Margin bottom by footer height */
+      margin-bottom: 60px;
+      background: transparent url(assets/img/back.png);
+    }
+    /* Effect images
+    ----------------------------------*/    
+    .row img:hover {
+       opacity: 1;       
+       /*Reflection*/
+      -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+       /*Glow*/
+      -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+      -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+      box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    } 
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,8 +47,86 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row margin-bottom-40"></div>
 
+            <div class="row margin-bottom-60">
+                <div class="col-md-5">
+                    <a href="index.html"><img class="img-responsive" src="assets/img/logo.png" title="Conapus logo"/></a>
+                </div>
+                <div class="col-md-7"></div>
+            </div>
+            <div class="row margin-bottom-60 hidden-xs"></div>
+
+            <!-- Images -->
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">                                
+                                <div class="margin-bottom-10">
+                                    <a href="#" title="home1">
+                                        <img class="img-responsive center-block img-center" src="assets/img/home1.jpg" alt="home1" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">                                
+                                <div class="margin-bottom-10">
+                                    <a href="#" title="home1">
+                                        <img class="img-responsive center-block img-center" src="assets/img/home2.jpg" alt="home1" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 hidden-sm">                                
+                                <div class="margin-bottom-10">
+                                    <a href="#" title="home1">
+                                        <img class="img-responsive center-block img-center" src="assets/img/home3.jpg" alt="home1" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- EndImages -->
+    
+          <div class="row margin-bottom-50">
+            <h1><p class="text-center color-text-blue">More than a Ship Agent</p></h1>
+            <h2><p class="text-center color-text-blue"><a href="#" title="Enter">Enter</a></p></h2>            
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+
+
+            
+      </div>
+
+
+    <footer class="footer">
+        <div class="row margin-bottom-10">
+            <div class="col-md-9 footer-line-blue"></div>
+            <div class="col-md-3 footer-line-sky"></div>
+        </div>
+
+        <div class="container">
+            <div class="col-md-9 color-text-white">
+                <p>Copyright © Canopus, All Rights Reserved.</p>
+                <p>+ 511 4658890</p>
+            </div>
+            <div class="col-md-3 color-text-white">
+                <a href="#" title="skype"><img src="assets/img/ico_skype.png" alt="skype"></a>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="assets/plugins/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

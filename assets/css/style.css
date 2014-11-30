@@ -1,0 +1,50 @@
+/*
+ * Template Base
+ * @description : main source of files.css  
+ *
+ **/
+
+/*Import Global Compulsory CSS Files*/
+@import url(app.css);
+
+
+/*Boxed Layout
+------------------------------------*/
+.wrapper {
+  background: #red;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #aaaeb1;
+}
+
+.footer-line-blue {
+	border-top: 2px solid #00528c;
+}
+
+.footer-line-sky {
+	border-top: 2px solid #0192d8;
+}
+
+.color-text-white {
+	color: white;
+}
+.color-text-blue {
+  color: #00528c;
+}
+
+
+/*  center image and space
+------------------------------------*/
+.img-center {
+	margin: 0 auto;	
+}
+@media (max-width: 450px) {
+   .img-center {
+      padding: 5px;
+   }   
+}
