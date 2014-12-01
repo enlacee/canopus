@@ -17,6 +17,9 @@
 .wrapper {
   
 }
+
+/* style direct slide (main banners)
+------------------------------------*/
 .wrapper-slide {
     background-color: #e3ecf1;
     padding: 15px 0 50px 0;
@@ -25,6 +28,35 @@
     //box-shadow: 2px 2px 2px #888888;
     box-shadow: 0px 0px 0px #888, 0px -1px 1px #d0dbe1;    
 }
+.img-slider-100 {
+    min-width: 100%;
+    min-height: 370px !important;
+}
+
+/* Slide : button next and previso less (.glyphicon)
+---------------------------------------*/
+.glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
+    font-size: 0px;
+}
+.btn-slide-prev {
+    background: transparent url(../img/slide-prev.png) no-repeat;
+}
+.btn-slide-next {
+    background: transparent url(../img/slide-next.png) no-repeat;
+}
+
+.carousel-indicators li {
+  background-color: #ccd7dd;
+ // background-color: rgba(70,70,70,.25);
+  border:3px solid #ccd7dd;
+  box-shadow: 0px 0px 0px #888, 0px -1px 2px #888;
+  //box-shadow: 1px 1px 1px #888,  0px 0px 0px #888888;;
+}
+
+.carousel-indicators .active {
+  background-color: #0078a4;
+}
+
 
 /*Navber
 ------------------------------------------*/
