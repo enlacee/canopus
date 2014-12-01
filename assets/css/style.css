@@ -52,11 +52,20 @@ ul.nav .active{ color: #0192d8 !important;}
   color: #49494b;
 }
 
+.color-bg-blue {
+  background-color: #00528c;
+}
+
+.error {
+color: #F00 !important;
+}
+
 /*  center image and space
 ------------------------------------*/
 .img-center {
 	margin: 0 auto;	
 }
+
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
