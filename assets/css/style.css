@@ -35,9 +35,6 @@
 
 /* Slide : button next and previso less (.glyphicon)
 ---------------------------------------*/
-.glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
-    font-size: 0px;
-}
 .btn-slide-prev {
     background: transparent url(../img/slide-prev.png) no-repeat;
 }
