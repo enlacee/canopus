@@ -4,6 +4,42 @@
  * 
  * */
 
+.title-service {
+    font-family: arial;
+    font-size: 36px;
+    font-weight: bold;
+}
+.title-service-subtitle {    
+    font-size: 15px;
+}
 
+.title-slide {
+    font-family: arial;
+    font-size: 24px;  
+}
+.title-slide-subtitle {
+    font-size: 30px; 
+}
 
+.title-header-phone {
+    font-size: 12px;
+}
+.title-contact {
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0 0 0 18px;
+}
+
+.carousel-caption h4 {
+   font-size: 30px; 
+}
+
+.img-slider-100 {
+    min-width: 100%;
+    min-height: 370px !important;
+}
+
+.btn-contact {
+    font-weight: bold;
+    box-shadow: 0px 2px 2px #888888;
+}
 
