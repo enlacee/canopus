@@ -185,4 +185,7 @@ color: #F00 !important;
 .carousel-control {
     width: 5%;
 }
-http://enlacee.github.io/canopus/
+.carousel-caption h4 {
+    min-width: 500px !important;
+    float: right !important;
+}
