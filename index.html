@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Canopus</title>
     <!-- Bootstrap -->
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,26 +29,27 @@
       bottom: 0;
       width: 100%;
       font-family: "verdana";
-      /* Set the fixed height of the footer here */      
+      /* Set the fixed height of the footer here */
     }
-    
+
     /* Effect images
     ----------------------------------*/
-    .img-effect {
-      display: flex;      
-    }
     .img-effect div {
-      margin: 0 2px 0 0;
+      padding: 0;
+      margin:0;
+      margin: 0 1px 0 0;
+      max-width:320px;
     }
+    
     .img-effect img:hover {
-       opacity: 1;       
-       /*Reflection*/
+       opacity: 1;
       -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
-       /*Glow*/
       -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
       -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
       box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
-    } 
+      
+    }
+    
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -77,24 +78,24 @@
                     <div class="col-md-1"> </div>
                     <div class="col-md-11">
                         <div class="row img-effect">
-                            <div class="">                                
+                            <div class="col-md-4">
                                 <div class="margin-bottom-10">
                                     <a href="#" title="home1">
                                         <img class="img-responsive center-block img-center" src="assets/img/home1.jpg" alt="home1" />
                                     </a>
                                 </div>
                             </div>
-                            <div class="">                                
+                            <div class="col-md-4">
                                 <div class="margin-bottom-10">
-                                    <a href="#" title="home1">
-                                        <img class="img-responsive center-block img-center" src="assets/img/home2.jpg" alt="home1" />
+                                    <a href="#" title="home3">
+                                        <img class="img-responsive center-block img-center" src="assets/img/home2.jpg" alt="home2" />
                                     </a>
                                 </div>
                             </div>
-                            <div class="">                                
+                            <div class="col-md-4">
                                 <div class="margin-bottom-10">
-                                    <a href="#" title="home1">
-                                        <img class="img-responsive center-block img-center" src="assets/img/home3.jpg" alt="home1" />
+                                    <a href="#" title="home3">
+                                        <img class="img-responsive center-block img-center" src="assets/img/home3.jpg" alt="home3" />
                                     </a>
                                 </div>
                             </div>
@@ -105,18 +106,18 @@
 
 
             <!-- EndImages -->
-    
+
           <div class="row margin-bottom-50">
             <h1><p class="text-center color-text-blue">More than a Ship Agent</p></h1>
             <h2>
               <p class="text-center color-text-blue">
                 <a href="services.html" title="Enter">Enter</a>
               </p>
-            </h2>            
+            </h2>
           </div>
             <br />
 
-            
+
       </div>
 
     <footer class="footer ">
